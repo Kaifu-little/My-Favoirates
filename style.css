@@ -119,9 +119,20 @@ p {
     opacity: 0.8;
 }
 
+.menu2 {
+    list-style: none;
+    font-family: 'Yomogi', cursive;
+    right: 30px;
+    cursor: pointer;
+    margin-top: -50px;
+    background-color: black;
+    padding: 5px;
+}
+
 .links{
     float:left;
     color: aliceblue;
+    background-color: black;
     padding-top: 5px;
     padding-left: 9px;
     padding-right: 9px;
@@ -162,7 +173,17 @@ a{
     border-width: 30px;
 }
 
-.insimg{
-    height: 400px;
-    vertical-align: middle;
+#insimg{
+    transition: transform.2s;
+    width: 45%;
+}
+
+#insimg:hover{
+    transform:scale(0.9);
+}
+
+#insh{
+    margin-top: -10px;
+    background-color: black;
+    color: white;
 }
