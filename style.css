@@ -112,11 +112,11 @@ p {
     list-style: none;
     font-family: 'Yomogi', cursive;
     position: fixed;
-    right: 30px;
     cursor: pointer;
-    margin-top: -50px;
+    margin-top: -90px;
     background-color: black;
-    opacity: 0.8;
+    opacity: 0.9;
+    margin-left:50%;
 }
 
 .menu2 {
@@ -186,4 +186,34 @@ a{
     margin-top: -10px;
     background-color: black;
     color: white;
+}
+
+.instacl{
+    display: inline;
+}
+
+.instal{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    width: 4.5em;
+    color:whitesmoke;
+}
+
+#contactme {
+    background: #CAE846;
+}
+
+#contactme a {
+    color: darkblue;
+    text-align: center;
+}
+
+#contactme h1 {
+    display: inline;
+    font-size: 50px;
+}
+
+#contactme iframe{
+    width:100%;
 }
