@@ -113,7 +113,6 @@ p {
     font-family: 'Yomogi', cursive;
     position: fixed;
     cursor: pointer;
-    margin-top: -30px;
     background-color: black;
     opacity: 0.9;
     margin-left:50%;
