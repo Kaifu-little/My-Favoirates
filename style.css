@@ -109,14 +109,15 @@ p {
 }
 
 .menu {
-    list-style: none;
     font-family: 'Yomogi', cursive;
     position: fixed;
     cursor: pointer;
-    background-color: black;
-    opacity: 0.9;
-    margin-left: 50%;
-    margin-top: -50;
+    margin-top: -20px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
 }
 
 .menu2 {
@@ -129,20 +130,19 @@ p {
     padding: 5px;
 }
 
-.links{
-    float:left;
-    color: aliceblue;
-    background-color: black;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-bottom: 5px;
+.links {
+    color: white;
+    padding-left: 33px;
+    padding-right: 25px;
     font-family: 'Yomogi', cursive;
     font-size: 20px;
+    display: inline;
 }
 
 .links:hover{
     background-color: lawngreen;
+    font-size:30px;
+    text-decoration:underline;
 }
 
 #mysongs{
